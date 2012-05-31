@@ -16,7 +16,7 @@ hi CursorLine ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#dfdfe6 gui=N
 hi CursorColumn ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#dfdfe6 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#dfdfe6 gui=NONE
 hi LineNr ctermfg=244 ctermbg=255 cterm=NONE guifg=#7c7c80 guibg=#dfdfe6 gui=NONE
-hi VertSplit ctermfg=249 ctermbg=249 cterm=NONE guifg=#b0b0b5 guibg=#b0b0b5 gui=NONE
+hi VertSplit ctermfg=250 ctermbg=250 cterm=NONE guifg=#b0b0b5 guibg=#b0b0b5 gui=NONE
 hi MatchParen ctermfg=0 ctermbg=NONE cterm=bold guifg=#000000 guibg=NONE gui=bold
 hi StatusLine ctermfg=0 ctermbg=250 cterm=bold guifg=#000000 guibg=#b0b0b5 gui=bold
 hi StatusLineNC ctermfg=0 ctermbg=249 cterm=NONE guifg=#000000 guibg=#b0b0b5 gui=NONE
@@ -55,6 +55,7 @@ hi Title ctermfg=0 ctermbg=NONE cterm=bold guifg=#000000 guibg=NONE gui=bold
 hi Todo ctermfg=102 ctermbg=NONE cterm=inverse,bold guifg=#999988 guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=60 ctermbg=NONE cterm=bold guifg=#445588 guibg=NONE gui=bold
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
+hi link pythonDecorator Function
 hi rubyClass ctermfg=0 ctermbg=NONE cterm=bold guifg=#000000 guibg=NONE gui=bold
 hi rubyFunction ctermfg=88 ctermbg=NONE cterm=bold guifg=#990000 guibg=NONE gui=bold
 hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
